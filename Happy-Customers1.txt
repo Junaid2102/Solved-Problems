@@ -1,0 +1,18 @@
+In wake of high demand of dates in the holy month of Ramadan, the Sabeel Cash and Carry introduced a new packaging scheme for customers on discounted prices. 
+The dates will be available in two different packages of size A and size B. The sizes A and B are decided by staff as per the demand. 
+However, there are limited stock available for each day. Given the size of the packages A and B, the total quantity of dates stock D and the number of customers N, 
+find the maximum number of customers that can be served with the given dates stock in a single day. 
+You should display the maximum number of customers that can be served along with their index. Assume the index of customers starts from 1.
+
+Input Format:
+
+The first line of input contains two integers N (no. of customers) and D (total stock available); 
+next line contains two integers denoting the sizes of packages A and B, respectively. 
+The next N lines contain two integers for each customer denoting total number of packages of size A and size B (separated by a space) that customer requires;
+where N <= 100.
+
+Output Format:
+
+Print maximum number of customers that can be served and in next line print the space separated indexes of served customers in serving order. 
+Please note that the customer with minimum servable order will be printed first, followed by the second minimum servable order, and so on. 
+In case of similar sized order, the customer with the lower index will be printed first.
